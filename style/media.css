@@ -1,0 +1,179 @@
+@media (max-width:1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .user {
+        margin: 0 auto;
+    }
+
+    .holder-wrap {
+        font-size: 22px;
+    }
+
+    .aside-text p {
+        font-size: 22px;
+    }
+
+    .lead-content p {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .container {
+        max-width: px;
+    }
+
+    .btn-wrapper {
+        display: none;
+    }
+
+    .user {
+        display: flex;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+
+    .hero .row {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .tagline {
+        margin-top: 10px;
+    }
+
+    .features .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lead {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .lead .lead-content {
+        text-align: center;
+    }
+
+    .hero .main-btn {
+        margin-top: -15px;
+    }
+
+    .lead .main-btn {
+        margin-top: 10px;
+    }
+
+    .desc {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .holder-wrap {
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+        font-size: 22px;
+    }
+
+    .aside-text p {
+        font-size: 22px;
+    }
+
+    .lead-content p {
+        font-size: 22px;
+    }
+
+    .hero .hero-wrap {
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .mobile-btn {
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .static {
+        position: unset !important;
+    }
+
+    .drop {
+        display: flex;
+        position: relative;
+    }
+
+    .drop:hover .mobile-menu {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .footer-info {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .more-information {
+        display: flex;
+        justify-content: space-between;
+        width: 100%
+    }
+
+    .social-network {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width:450px) {
+    .user .col-4 {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main-btn {
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 52px;
+    }
+}
